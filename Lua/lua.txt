@@ -1,13 +1,13 @@
-[script]
+﻿[script]
 name        = Удаление надписи в ЦГ
 author      = halfik
 description = Убирает назойливую надпись "Вы вошли в центр гетто" и "Вы покинули центр гетто".
 usage       = Автоматически
 file        = delCG.lua
-url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/delCG.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/delCG.lua
 icon        = 🌙
 tag         = Gametext
-image       = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Images/delCG.png
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/delCG.png
 
 [script]
 name        = ФиксСтарогоHUD
@@ -16,7 +16,7 @@ description = Скрипт фиксит отображение денег на �
 На клиенте лимит денег всё ещё остался, поэтому суммы выше 2 ккк отображаются как отрицательные значения, но я постарался сделать это читабельным: так, 3.020.000.000 реальных денег будут отображаться как -3.020.000 (на аризоне суммы меньше тысячи вирт в любом случае не играют вообще никакой роли). Просто помните: сумма с минусом - значит, к концу можно приписать ещё три нуля. Скрипт работает через прослушку CEF денег, т.е. не сбивает диалоги, как это делает, например, старая сытость. Зависимости: arizona-events
 usage       = Автоматическое
 file        = oldhudmoney.lua
-url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/oldhudmoney.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/oldhudmoney.lua
 icon        = 
 tag         = fix
 image       = 
@@ -28,7 +28,7 @@ description = Данный скрипт переключает их обратн
 Из минусов: не будут работать диалоги пополнения балансов, так как там теперь есть отдельные инпуты для ввода общей суммы. Если будет желание как-то интегрировать фикс - этот скрипт хорошая основа.
 usage       = Автоматическое
 file        = RestoreDialog.lua
-url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/RestoreDialog.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/RestoreDialog.lua
 icon        = 
 tag         = fix
 image       = 
@@ -41,7 +41,7 @@ description = Скрипт фиксит новый формат денег на 
 arizona-events не требуется!!!​
 usage       = Автоматическое
 file        = NewMoneySeparator_v3.lua
-url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/NewMoneySeparator_v3.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/NewMoneySeparator_v3.lua
 icon        = 
 tag         = fix
 image       = 
@@ -52,10 +52,10 @@ author      = imchaosvoid
 description = 
 usage       = /sm​
 file        = scriptmanager fix.lua
-url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/scriptmanager fix.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/scriptmanager%20fix.lua
 icon        = 🌿
 tag         = Manager
-image       = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Images/Manager.png
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/Manager.png
 
 [script]
 name        = InventoryAddon
@@ -68,8 +68,8 @@ description = Скрипт позволяет изменять размер пр
 Зависимости: mimgui, carbJsonConfig
 usage       =  /invaddon
 file        = InventoryAddon.lua
-url         = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Lua/InventoryAddon.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/InventoryAddon.lua
 icon        = 
 tag         = Inventory
-image       = https://raw.githubusercontent.com/worteng/ArzLaunchRepo/refs/heads/main/Images/1759232921463.png
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/1759232921463.png
 
