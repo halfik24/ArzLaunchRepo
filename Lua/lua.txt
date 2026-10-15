@@ -1,4 +1,4 @@
-﻿[script]
+[script]
 name        = Удаление надписи в ЦГ
 author      = halfik
 description = Убирает назойливую надпись "Вы вошли в центр гетто" и "Вы покинули центр гетто".
@@ -73,3 +73,266 @@ icon        =
 tag         = Inventory
 image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/1759232921463.png
 
+[script]
+name        = Evolve HUD
+author      = mentaletion
+description = Полностью заменяет худ Arizona RP: деньги, здоровье, броня, табличка захвата, логотип. Учитывает максимальное хп и броню со статистики. Меню: /hud. Зависимости: mimgui, samp.events, cjson. Источник: https://www.blast.hk/threads/257186/
+usage       = /hud
+file        = evolvehud.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/evolvehud.lua
+icon        = 🎮
+tag         = hud
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/evolvehud.png
+
+[script]
+name        = CEF HUD Editor
+author      = Willy4ka
+description = Позволяет полностью отредактировать CEF-худ Arizona: позиции элементов, шрифты, цвета и картинки (по прямой ссылке на изображение). Работает с актуальным CEF-худом после майской обновы. Меню: /arzhud. Зависимости: mimgui, carbJsonConfig. Источник: https://www.blast.hk/threads/192708/
+usage       = /arzhud
+file        = CEFHUDEditor.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/CEFHUDEditor.lua
+icon        = 🛠
+tag         = hud
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/CEFHUDEditor.png
+
+[script]
+name        = HUD STATS v4.7
+author      = A7MED
+description = Боевая статистика: 28 независимых метрик (урон, убийства, точность и т.д.), детектор C-bug, модульная настройка каждого показателя. Меню: /hudstats. Зависимости: mimgui. Источник: https://www.blast.hk/threads/257807/
+usage       = /hudstats
+file        = Hud_Stats_v4.7.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/Hud_Stats_v4.7.lua
+icon        = ⚔
+tag         = hud
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/Hud_Stats_v4.7.jpg
+
+[script]
+name        = Старый дамаг информер
+author      = менталейшн
+description = Старый дамаг информер с вариантами урона по всем ганам, без CEF-инфо Аризоны и его трат. Команды: /dmg (вкл/выкл), /dmgon. Источник: https://www.blast.hk/threads/257657/
+usage       = /dmg
+file        = olddmg.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/olddmg.lua
+icon        = 💥
+tag         = info
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/olddmg.png
+
+[script]
+name        = Taxi Helper
+author      = CowBoy337
+description = Подсчёт заработка в такси: отработанные рейсы, сумма, лучший рейс и время за сессию и за день. Команды: /th (вкл/окно), /thmove (переместить), /threset (сброс). Источник: https://www.blast.hk/threads/258176/
+usage       = /th
+file        = TaxiHelper_1.2.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/TaxiHelper_1.2.lua
+icon        = 🚕
+tag         = info
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/TaxiHelper_1.2.png
+
+[script]
+name        = Salary V2
+author      = hijuce, mark, verbuk
+description = Выводит чистый заработок за сессию: траты вычитаются из дохода. Работает на любом сервере, зависимостей нет. Команды: /salary.turn (вкл/выкл), /salary.reset (сброс). Источник: https://www.blast.hk/threads/207967/
+usage       = /salary.turn
+file        = SalaryV2.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/SalaryV2.lua
+icon        = 💰
+tag         = info
+image       = 
+
+[script]
+name        = ArzResHelper
+author      = Ryder Nakata
+description = Учёт заработка на Arizona RP: ферма, шахта, лесопилка, нефтевышки, такси, Item Market, тайники, пейдеи, инвестиции. Цели на день, достижения, Telegram-отчёты, встроенный биндер по горячим клавишам. Команды: /rh, /rhreset. Источник: https://www.blast.hk/threads/254420/
+usage       = /rh
+file        = ArzResHelper.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/ArzResHelper.lua
+icon        = 📊
+tag         = info
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/ArzResHelper.png
+
+[script]
+name        = Карта закладок (GhettoMAP)
+author      = koktic
+description = Карта закладок и семян укропа: метки на карте для быстрого поиска точек. Источник: https://www.blast.hk/threads/257185/
+usage       = /map
+file        = GhettoMAP.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/GhettoMAP.lua
+icon        = 🗺
+tag         = map
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/GhettoMAP.png
+
+[script]
+name        = PodarkiMAP
+author      = HarikAng
+description = Карта подарков Arizona RP: отмечает на карте и радаре места появления подарков (26 точек, база дополняется). Метки появляются в радиусе 5000 метров. Бета. Источник: https://www.blast.hk/threads/258218/
+usage       = /rppod
+file        = PodarkiMAP.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/PodarkiMAP.lua
+icon        = 🎁
+tag         = map
+image       = 
+
+[script]
+name        = Примечания к домам
+author      = aurelien
+description = Примечания к своим домам: пишете, что где лежит, и скрипт показывает текст при выборе спавна. Меню настройки: /hnotes. Источник: https://www.blast.hk/threads/258360/
+usage       = /hnotes
+file        = HouseNotes.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/HouseNotes.lua
+icon        = 🏠
+tag         = util
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/HouseNotes.png
+
+[script]
+name        = RadiusLavki 5.3
+author      = Alex07, Hole_Digger, xprenzzz
+description = Показывает, где можно поставить переносную лавку: синяя заливка свободной земли, стрелка к ближайшему месту, звук. Есть автообновление с GitHub (отключается в /rlmenu). Команды: /rlavka или Alt+3, /rlmenu. Источник: https://www.blast.hk/threads/258169/
+usage       = /rlavka
+file        = RadiusLavki.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/RadiusLavki.lua
+icon        = 🛒
+tag         = util
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/RadiusLavki.png
+
+[script]
+name        = Редизайн BattlePass
+author      = sandrom
+description = Новый вид BattlePass с удобным списком заданий и лентой наград (внедряет JS в CEF-окно БП). Меню: /bpdock. Источник: https://www.blast.hk/threads/258238/
+usage       = /bpdock
+file        = bp_dock.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/bp_dock.lua
+icon        = 🏆
+tag         = ui
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/bp_dock.jpg
+
+[script]
+name        = Arz Invent
+author      = Joce
+description = Тёмный стиль инвентаря Arizona, подсветка в лавке предметов, которые у вас уже есть, цены в формате 100к/1кк. Исправляет баг отображения инвентаря при включённом скролле. Меню: /arzinv. Источник: https://www.blast.hk/threads/257400/
+usage       = /arzinv
+file        = arzinv.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/arzinv.lua
+icon        = 📦
+tag         = ui
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/arzinv.png
+
+[script]
+name        = Dialog Plus
+author      = TheMY3
+description = Нумерация пунктов в списках диалогов нового CEF-интерфейса Arizona Future: пункт выбирается по цифре, нумерация подсвечена как в оригинале. Источник: https://www.blast.hk/threads/256216/
+usage       = Автоматически
+file        = DialogPlus.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/DialogPlus.lua
+icon        = 💬
+tag         = ui
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/DialogPlus.png
+
+[script]
+name        = FuelStation
+author      = Back1ng
+description = Удобное окно заправки вместо стандартного диалога /z: выбор объёма, полный бак, цена, запас и текущее топливо. Работает с CEF и без него. Зависимости: mimgui, samp.events. Источник: https://www.blast.hk/threads/257775/
+usage       = Автоматически (диалог /z)
+file        = FuelStation.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/FuelStation.lua
+icon        = ⛽
+tag         = ui
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/FuelStation.png
+
+[script]
+name        = Настройки ModLoader в меню паузы
+author      = Willy4ka
+description = Добавляет в новое меню паузы игры настройки модов ModLoader, которых там нет из коробки. Источник: https://www.blast.hk/threads/253607/
+usage       = Автоматически (меню паузы)
+file        = ModloaderSettings.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/ModloaderSettings.lua
+icon        = 🧩
+tag         = util
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/ModloaderSettings.png
+
+[script]
+name        = Скрой флаг возле ника
+author      = Deps
+description = Убирает возле ника ненужные элементы: флаг, теги админа и ВИПа, название семьи - каждый включается отдельно. Работает на лаунчере Arizona. Источник: https://www.blast.hk/threads/252677/
+usage       = /tags
+file        = tags.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/tags.lua
+icon        = 🏷
+tag         = visual
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/tags.png
+
+[script]
+name        = SkinSwap
+author      = Bananas23
+description = Заменяет кастомные скины Arizona на стандартные ГТА (1-311): режимы CJ, случайные, фиксированный ID или свои правила замены. Ваш скин не меняется. Меню: /skinswap. Источник: https://www.blast.hk/threads/255425/
+usage       = /skinswap
+file        = SkinSwap.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/SkinSwap.lua
+icon        = 👕
+tag         = visual
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/SkinSwap.jpg
+
+[script]
+name        = Time Changer
+author      = Mipiv
+description = Смена времени суток и погоды: 6120 вариантов, сохранение конфигов и автовключение при заходе в игру. Команды: /tw (меню), /twtime 0-24, /twweather 0-255. Источник: https://www.blast.hk/threads/257771/
+usage       = /tw
+file        = TimeWeather1.2.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/TimeWeather1.2.lua
+icon        = 🌤
+tag         = visual
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/TimeWeather1.2.jpg
+
+[script]
+name        = WaterMark
+author      = MLycoris
+description = Выводит в любом месте экрана надпись, картинки PNG или гифки. Размер, цвет и позиция настраиваются. Команда: /wmark. Зависимости: mimgui, GifPlayerLua. Источник: https://www.blast.hk/threads/183628/
+usage       = /wmark
+file        = Watermark.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/Watermark.lua
+icon        = 🖼
+tag         = visual
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/Watermark.png
+
+[script]
+name        = Фикс диалога бана
+author      = flupiflufi
+description = Диалог бана после обновы пропадает слишком быстро, а после диалога кика часть кнопок не нажимается. Этот скрипт решает обе проблемы. Зависимости: samp.events. Источник: https://www.blast.hk/threads/256755/
+usage       = Автоматически
+file        = diagfix.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/diagfix.lua
+icon        = 🔧
+tag         = fix
+image       = 
+
+[script]
+name        = Rules - блокнот в игре
+author      = HarikAng
+description = Интерактивный блокнот-шпаргалка: свои тексты с заголовками, списками, цветами и иконками, плавный интерфейс mimgui. Команда: /srules. Источник: https://www.blast.hk/threads/258287/
+usage       = /srules
+file        = rules.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/rules.lua
+icon        = 📔
+tag         = util
+image       = 
+
+[script]
+name        = Clava Races
+author      = pryanix
+description = Тренажёр скорости печати: режимы (текст, английский, числа, CAPTCHA, одна ошибка), виртуальная клавиатура с подсветкой пальцев, RU/EN. Команда: /clava. Источник: https://www.blast.hk/threads/258340/
+usage       = /clava
+file        = ClavaRaces.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/ClavaRaces.lua
+icon        = ⌨
+tag         = fun
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/ClavaRaces.jpg
+
+[script]
+name        = ArzChatCleaner
+author      = Спасибо за пирог
+description = Фильтр чата Arizona RP: скрывает системный флуд и VIP-рекламу по категориям, пользовательские правила, белый и чёрный списки, журнал скрытых сообщений. Команда: /arzclean. Источник: https://www.blast.hk/threads/257284/
+usage       = /arzclean
+file        = ArzChatCleaner_v4.9.7.lua
+url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/ArzChatCleaner_v4.9.7.lua
+icon        = 🧹
+tag         = fix
+image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/ArzChatCleaner_v4.9.7.png
