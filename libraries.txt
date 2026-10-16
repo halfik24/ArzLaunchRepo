@@ -1,13 +1,59 @@
 [library]
 name = mimgui
-description = Mimgui — ImGui bindings для MoonLoader (SAMP). Позволяет создавать GUI окна в игре.
-url = https://raw.githubusercontent.com/IMRLUA/mimgui/master/mimgui.zip
-version = 1.0.0
-required_by = ARZMarket Loader, Mimgui ScoreBoard
+description = ImGui-биндинги для MoonLoader — GUI-окна и элементы управления. Основная графическая библиотека каталога.
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/mimgui-v1.7.1.zip
+version = 1.7.1
+path = mimgui/init.lua
+required_by = Evolve HUD, CEF HUD Editor, HUD STATS, Старый дамаг информер, GhettoMAP, HouseNotes, RadiusLavki 5.3, Rules, SkinSwap, Time Changer, WaterMark, FuelStation, ArzChatCleaner, Lua Manager, InventoryAddon, Скрой флаг возле ника
 
 [library]
 name = imgui
-description = Базовая библиотека ImGui для MoonLoader. Минимальный набор для создания интерфейсов.
-url = https://raw.githubusercontent.com/IMRLUA/mimgui/master/imgui.zip
-version = 2.0.0
-required_by = ARZMarket Loader
+description = Базовый ImGui для MoonLoader (MoonImGui). Нужен Taxi Helper и виджетам imgui_addons.
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/moon-imgui-1.1.6.zip
+version = 1.1.6
+path = imgui.lua
+required_by = Taxi Helper, ArzResHelper
+
+[library]
+name = samp.events
+description = SAMP.Lua — обработка событий сервера: чат, диалоги, сообщения, подключения.
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/samp-lua-v2.3.0.zip
+version = 2.3.0
+path = samp/events.lua
+required_by = Evolve HUD, FuelStation, Dialog Plus, HouseNotes, SkinSwap, Taxi Helper, ArzChatCleaner, Удаление надписи в ЦГ, NewMoneySeparator v3, InventoryAddon, HUD STATS, Фикс диалога бана
+
+[library]
+name = carbJsonConfig
+description = Хранение конфигов в JSON для MoonLoader (Willy4ka).
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/carbJsonConfig.lua
+version = v240620
+path = carbJsonConfig.lua
+required_by = CEF HUD Editor, InventoryAddon
+
+[library]
+name = GifPlayerLua
+description = Плеер GIF-изображений для MoonLoader (WaterMark).
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/GifPlayerLua.zip
+path = GifPlayerLua.dll
+required_by = WaterMark
+
+[library]
+name = requests
+description = HTTP-клиент для MoonLoader: запросы к API и скачивание данных.
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/requests.lua
+path = requests.lua
+required_by = ArzResHelper
+
+[library]
+name = imgui_addons
+description = Дополнительные виджеты и эффекты для ImGui (DonHomka).
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/imgui_addons.lua
+path = imgui_addons.lua
+required_by = ArzResHelper
+
+[library]
+name = hooks
+description = Хуки памяти и vtable для MoonLoader (RTD).
+url = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Libs/hooks.lua
+path = hooks.lua
+required_by = Скрой флаг возле ника
