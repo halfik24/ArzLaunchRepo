@@ -99,7 +99,6 @@ libraries   = mimgui, carbJsonConfig
 url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/CEFHUDEditor.lua
 icon        = 🛠
 tag         = hud
-image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/CEFHUDEditor.png
 
 [script]
 name        = HUD STATS v4.7
@@ -310,7 +309,6 @@ libraries   = mimgui, GifPlayerLua
 url         = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Lua/Watermark.lua
 icon        = 🖼
 tag         = visual
-image       = https://raw.githubusercontent.com/halfik24/ArzLaunchRepo/refs/heads/main/Images/Watermark.png
 
 [script]
 name        = Фикс диалога бана
